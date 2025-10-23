@@ -2,8 +2,20 @@
 
 Automatically blur tweets with political keywords on X.com and Twitter. Opens settings automatically on install.
 
-![Demo](./demo.webp)
-![Settings](./settings.webp)
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <b>Blur in Action</b><br>
+        <img src="./demo.webp" alt="Demo" width="100%">
+      </td>
+      <td width="50%" align="center">
+        <b>Settings Interface</b><br>
+        <img src="./settings.webp" alt="Settings" width="100%">
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## Quick Start
 
