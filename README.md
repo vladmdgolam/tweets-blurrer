@@ -7,7 +7,7 @@ Automatically blur tweets with political keywords on X.com and Twitter. Opens se
     <tr>
       <td width="50%" align="center">
         <b>Blur in Action</b><br>
-        <img src="./demo.webp" alt="Demo" width="100%">
+        <img src="./demo.webp" alt="Demo" width="85%">
       </td>
       <td width="50%" align="center">
         <b>Settings Interface</b><br>
