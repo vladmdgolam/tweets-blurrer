@@ -19,7 +19,10 @@
     }
   },
   "permissions": ["storage"],
-  "options_page": "dist/options.html",
+  "options_ui": {
+    "page": "dist/options.html",
+    "open_in_tab": true
+  },
   "content_scripts": [
     {
       "matches": ["*://*.twitter.com/*", "*://*.x.com/*"],
