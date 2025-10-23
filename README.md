@@ -19,7 +19,7 @@ Automatically blur tweets with political keywords on X.com and Twitter. Opens se
 
 ## Quick Start
 
-1. **Install**: Clone repo → `pnpm install` → `pnpm run build` → Load at `chrome://extensions/`
+1. **Load Extension**: Go to `chrome://extensions/` → Enable "Developer mode" → Click "Load unpacked" and select this folder
 2. **Configure**: Extension opens settings automatically - add your keywords
 3. **Done**: Tweets with your keywords are blurred. Hover to reveal.
 
