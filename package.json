@@ -4,10 +4,11 @@
   "description": "Blurs tweets containing specific (eg. political) words on x.com and twitter",
   "private": true,
   "scripts": {
-    "build": "rm -rf dist && npm run build:shared && npm run build:options && npm run build:content && npm run copy:assets",
+    "build": "rm -rf dist && npm run build:shared && npm run build:options && npm run build:content && npm run build:background && npm run copy:assets",
     "build:shared": "esbuild src/shared.ts --outfile=dist/shared.js --format=esm --platform=browser",
     "build:options": "esbuild src/options.ts --bundle --outfile=dist/options.js --format=esm --platform=browser",
     "build:content": "esbuild src/content.ts --bundle --outfile=dist/content.js --format=esm --platform=browser",
+    "build:background": "esbuild src/background.ts --outfile=dist/background.js --format=iife --platform=browser",
     "copy:assets": "cp src/options.html dist/ && cp src/style.css dist/",
     "watch": "npm run build -- --watch"
   },
