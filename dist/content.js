@@ -1,4 +1,4 @@
-// shared.ts
+// src/shared.ts
 var DEFAULT_POLITICAL_WORDS = ["politics"].map((word) => word.toLowerCase());
 var DEFAULT_TWEET_SELECTOR = '[data-testid="cellInnerDiv"]';
 function normalizeWordList(words) {
@@ -9,7 +9,7 @@ function normalizeWordList(words) {
   return DEFAULT_POLITICAL_WORDS;
 }
 
-// content.ts
+// src/content.ts
 var politicalWords = [...DEFAULT_POLITICAL_WORDS];
 var tweetSelector = DEFAULT_TWEET_SELECTOR;
 var observerStarted = false;

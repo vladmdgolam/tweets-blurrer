@@ -1,8 +1,8 @@
-// shared.ts
+// src/shared.ts
 var DEFAULT_POLITICAL_WORDS = ["politics"].map((word) => word.toLowerCase());
 var DEFAULT_TWEET_SELECTOR = '[data-testid="cellInnerDiv"]';
 
-// options.ts
+// src/options.ts
 var wordsInput = document.getElementById("wordsInput");
 var selectorInput = document.getElementById("selectorInput");
 var saveButton = document.getElementById("saveButton");

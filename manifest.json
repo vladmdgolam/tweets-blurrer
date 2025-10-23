@@ -19,12 +19,12 @@
     }
   },
   "permissions": ["storage"],
-  "options_page": "options.html",
+  "options_page": "dist/options.html",
   "content_scripts": [
     {
       "matches": ["*://*.twitter.com/*", "*://*.x.com/*"],
-      "js": ["content.js"],
-      "css": ["style.css"],
+      "js": ["dist/shared.js", "dist/content.js"],
+      "css": ["dist/style.css"],
       "run_at": "document_idle",
       "type": "module"
     }
