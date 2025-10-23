@@ -46,6 +46,12 @@ Simply load the extension from the project folder - the `dist/` directory alread
 
 ## Settings
 
+### Settings Page
+
+The settings page opens automatically after installation and has a modern, dark-themed interface:
+
+![Settings Page](./settings.png)
+
 ### Political Keywords
 
 Add the words or phrases that should trigger the blur effect. Examples:
