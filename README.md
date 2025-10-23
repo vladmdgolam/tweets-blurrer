@@ -2,8 +2,8 @@
 
 Automatically blur tweets with political keywords on X.com and Twitter. Opens settings automatically on install.
 
-![Demo](./demo.png)
-![Settings](./settings.png)
+![Demo](./demo.webp)
+![Settings](./settings.webp)
 
 ## Quick Start
 
