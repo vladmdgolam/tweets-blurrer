@@ -1,0 +1,19 @@
+{
+  "name": "tweets-blurrer",
+  "version": "1.2.0",
+  "description": "Blurs tweets containing specific (eg. political) words on x.com and twitter",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:shared && npm run build:options && npm run build:content",
+    "build:shared": "esbuild shared.ts --bundle --outfile=shared.js --format=esm --platform=browser",
+    "build:options": "esbuild options.ts --bundle --outfile=options.js --format=esm --platform=browser",
+    "build:content": "esbuild content.ts --bundle --outfile=content.js --format=esm --platform=browser",
+    "watch": "npm run build -- --watch"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.24",
+    "esbuild": "^0.25.11",
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "pnpm@10.18.2+sha512.9fb969fa749b3ade6035e0f109f0b8a60b5d08a1a87fdf72e337da90dcc93336e2280ca4e44f2358a649b83c17959e9993e777c2080879f3801e6f0d999ad3dd"
+}

@@ -1,0 +1,9 @@
+/* Applies a blur effect and a smooth transition to blurred tweets */
+.blurred-tweet {
+    filter: blur(4px) !important;
+    transition: filter 0.3s ease-in-out;
+}
+
+.blurred-tweet:hover {
+    filter: blur(0) !important;
+}
