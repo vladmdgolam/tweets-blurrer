@@ -1,6 +1,6 @@
 {
   "name": "tweets-blurrer",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "Blurs tweets containing specific (eg. political) words on x.com and twitter",
   "private": true,
   "scripts": {

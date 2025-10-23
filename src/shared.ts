@@ -1,5 +1,5 @@
 // Shared constants and utilities
-export const DEFAULT_POLITICAL_WORDS = ["politics"].map((word) => word.toLowerCase())
+export const DEFAULT_POLITICAL_WORDS = ["politics", "kittens"].map((word) => word.toLowerCase())
 export const DEFAULT_TWEET_SELECTOR = '[data-testid="cellInnerDiv"]'
 
 export function normalizeWordList(words: unknown): string[] {
